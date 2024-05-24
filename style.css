@@ -148,7 +148,9 @@ h1{
   }
   .instalacoes .modal{
     width: 20%;
-    height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .instalacoes .modal img{
     width: 48px;
