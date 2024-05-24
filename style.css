@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 146px;
+    width: 100%;
+    background-color: #111016;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 5em;
+}
+
+.menuPrincipal{
+    margin-right: 5em;
+    display: flex;
+    justify-content: space-between;
+    width: 30em;
+    align-items: end;
+}
+.menuPrincipal p{
+    padding-bottom: 10px;
+}
+
+.menuPrincipal a{
+    color: white;
+    font-family: righteous;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.menuPrincipal p:hover {
+    background-color: #1E8F0B;
+    -webkit-transform: skew(348deg);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 100px;
+}
+.bannerPromocao{
+    background-color: #1F7C07;
+    display: flex;
+    justify-content: center;
+}
+.bannerPromocao img{
+    width: 80%;
+}
+
+.aquiNaKgg{
+    background: #111016;
+    height: 698px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 14em;
+}
+.textoKgg h1{
+    font-family: Poppins, 'sans-serif';
+    color: #FFFFFF;
+    font-size: 50px;
+}
+.textoKgg p {
+    font-family: roboto;
+    color: #FFFFFF;
+    font-size: 28px;
+    margin-top: 38px;
+}
+.fotoKgg img {
+    width: 100%;
+}
+.textoKgg{
+    width: 45%;
+    margin-right: 30px;
+}
+
+.horaDeTreinar{
+    background: #1F7C07;
+    height: 698px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.horaDeTreinar .imagem{
+    margin-left: 15em;
+}
+.horaDeTreinar .texto{
+    font-family: Poppins, 'sans-serif';
+    color: #E0E0E0;
+    font-size: 30px;
+    width: 50%;
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.horaDeTreinar button{
+    margin-top: 60px;
+    width: 170px;
+    height: 50px;
+    font-family: roboto;
+    font-size: 22px;
+    color: text;
+    background-color: #1A191F;
+    color: white;
+    border-radius: 14px;
+    border: none;
+}
